@@ -1,10 +1,7 @@
 name: CI Selenium Test GitHub Actions
 
-on:
-  push:
-    branches: [ "OctaneIntegration" ]
-  pull_request:
-    branches: [ "OctaneIntegration" ]
+on: [push]
+    
 
 jobs:
   SeleniumTestRun:
