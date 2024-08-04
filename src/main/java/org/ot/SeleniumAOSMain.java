@@ -1,10 +1,10 @@
-package org.example;
+package org.ot;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class SeleniumAOSMain
 {
     public static void main( String[] args )
     {
