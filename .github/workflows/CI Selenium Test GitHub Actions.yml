@@ -1,15 +1,12 @@
 name: CI Selenium Test GitHub Actions
 
-on:
-  push:
-    branches: [ "OctaneIntegration" ]
-  pull_request:
-    branches: [ "OctaneIntegration" ]
+on: [push]
+    
 
 jobs:
   SeleniumTestRun:
 
-    runs-on: self-hosted
+    runs-on: [self-hosted]
 
     steps:
       - uses: actions/checkout@v3
