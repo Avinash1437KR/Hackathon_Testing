@@ -1,7 +1,7 @@
 name: CI Selenium Test GitHub Actions
 
 on: [push]
-    
+##    
 
 jobs:
   SeleniumTestRun:
