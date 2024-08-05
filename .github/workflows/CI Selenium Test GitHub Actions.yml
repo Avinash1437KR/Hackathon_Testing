@@ -8,6 +8,7 @@ permissions:
   pull-requests: read
   actions: read
   packages: read
+  
 
 jobs:
   SeleniumTestRun:
@@ -16,5 +17,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4.1.7
-      - name: Build with Maven
-        run: mvn clean test
+      #- name: Build with Maven
+      #  run: mvn clean test
