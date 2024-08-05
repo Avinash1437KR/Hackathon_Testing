@@ -1,8 +1,14 @@
 name: CI Selenium Test GitHub Actions
 
 on: [push]
-##    
-##
+
+permissions:
+  id-token: write
+  contents: read
+  pull-requests: read
+  actions: read
+  packages: read
+
 jobs:
   SeleniumTestRun:
 
